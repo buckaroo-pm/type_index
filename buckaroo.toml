@@ -1,1 +1,5 @@
 targets = [ "//:type-index" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-container_hash"
+version = "branch=master"
