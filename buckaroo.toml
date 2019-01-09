@@ -3,3 +3,7 @@ targets = [ "//:type-index" ]
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-container_hash"
 version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-static_assert"
+version = "branch=master"

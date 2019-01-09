@@ -1,9 +1,29 @@
-manifest = "164d36259b5d8fb3f73b999ade46312dc85fdb18f3f62099a4415b519aa36541"
+manifest = "aa8269ecc0f952110b66e045e18e40fe2af3ba05fa038fb2f542f79f53931122"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-container_hash"
 target = "//:container-hash"
 
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-static_assert"
+target = "//:static-assert"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "branch=master" ]
+revision = "f2f2d0d85496b72eeff1186518deb7e23c757bfd"
+
 [lock."github.com/buckaroo-pm/boost-container_hash"]
 versions = [ "branch=master" ]
-revision = "9446eb516e717ae9c80bc89768a8d1160bcf6887"
+revision = "ddd9a887f1f0253ded4455d455b3c54228067b74"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "branch=master" ]
+revision = "94aa5268c1a74468be94b40afd730aea1730ceab"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "branch=master" ]
+revision = "4b9da4628bc69ad0e9b244d3ec885f2eadac95d8"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "branch=master" ]
+revision = "a34caf51f831ffb77d1057c668b5db620863d191"
