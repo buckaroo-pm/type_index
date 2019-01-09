@@ -1,0 +1,9 @@
+manifest = "164d36259b5d8fb3f73b999ade46312dc85fdb18f3f62099a4415b519aa36541"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-container_hash"
+target = "//:container-hash"
+
+[lock."github.com/buckaroo-pm/boost-container_hash"]
+versions = [ "branch=master" ]
+revision = "9446eb516e717ae9c80bc89768a8d1160bcf6887"

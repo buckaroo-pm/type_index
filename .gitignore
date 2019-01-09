@@ -1,2 +1,8 @@
 doc/autodoc.xml
 doc/html
+
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+buckaroo
