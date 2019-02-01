@@ -1,4 +1,4 @@
-manifest = "153e8e87298db42815b42c7feeaa356ee47f2ae13167510f09a5bae7e64df479"
+manifest = "9b7cc5ef24d0c10ec8eff16d429ce506f712571192fe0347e46239253a37b9c1"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-container_hash"
